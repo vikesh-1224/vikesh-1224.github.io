@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vikesh | Dynamic Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- AOS for scroll animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2 class="logo">Vikesh</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Qualification</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Hello, I'm <span>Vikesh Kumar Yadav</span></h1>
+    <h2><span id="dynamic-text"></span></h2>
+</section>
+
+<section id="about" data-aos="fade-up">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+        <p>
+            I am a Computer Science student passionate about Web Development,
+            Java programming, and building real-world applications.
+        </p>
+    </div>
+</section>
+
+<section id="education" data-aos="fade-up">
+    <h2 class="section-title">Qualification</h2>
+    <div class="card">
+        <h3>B.E Computer Science</h3>
+        <p>Chennai Institute of Technology</p>
+        <span>2022 – 2026</span>
+    </div>
+</section>
+
+<section id="skills" data-aos="fade-up">
+    <h2 class="section-title">Skills</h2>
+    <div class="card">
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress"><div class="progress-bar" data-width="90%"></div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress"><div class="progress-bar" data-width="85%"></div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress"><div class="progress-bar" data-width="80%"></div></div>
+        </div>
+        <div class="skill">
+            <p>Java</p>
+            <div class="progress"><div class="progress-bar" data-width="75%"></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="achievements" data-aos="fade-up">
+    <h2 class="section-title">Achievements</h2>
+    <div class="card">
+        <ul class="list">
+            <li>🏆 College Hackathon Participant</li>
+            <li>⭐ Solved 150+ coding problems</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+    <h2 class="section-title">Projects</h2>
+    <div id="projects-container"></div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="socials">
+        <a href="https://www.facebook.com/search/top?q=Vikesh%20Kumar%20Yadav" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/vikesh_yadav1224/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/search/results/all/?keywords=Vikesh%20Kumar%20Yadav" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/vikesh-1224" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 VIKESH KUMAR YADAV</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
